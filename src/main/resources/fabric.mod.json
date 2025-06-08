@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "togglesneakhotkey",
+  "version": "${version}",
+  "name": "Toggle Sneak Hotkey",
+  "description": "**Toggle Sneak Hotkey** is a Fabric mod that allows you to enable/disable Toggle Sneak and Toggle Sprint with a hotkey.\n\nThe defaults are **F9** for Toggle Sneak and **F10** for Toggle Sprint.",
+  "authors": [],
+  "contact": {
+    "homepage": "https://modrinth.com/project/toggle-sneak-hotkey",
+    "sources": "https://github.com/imeesa/togglesneakhotkey",
+    "issues": "https://github.com/imeesa/togglesneakhotkey/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/togglesneakhotkey/logooxipng.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "com.imeesa.togglesneakhotkey.client.TogglesneakhotkeyDataGenerator"
+    ],
+    "client": [
+      "com.imeesa.togglesneakhotkey.client.TogglesneakhotkeyClient"
+    ],
+    "main": [
+      "com.imeesa.togglesneakhotkey.Togglesneakhotkey"
+    ]
+  },
+  "mixins": [
+    "togglesneakhotkey.mixins.json",
+    {
+      "config": "togglesneakhotkey.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": ">=1.21 <=${minecraft_version}"
+  }
+}

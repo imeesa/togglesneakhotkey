@@ -1,0 +1,13 @@
+{
+  "key.togglesneakhotkey.togglesneakmode": "Toggle Sneak Mode",
+  "key.togglesneakhotkey.togglesneakmode.description": "Toggles the sneak mode on or off. When enabled, you can sneak without holding down the sneak key.",
+  "message.togglesneakhotkey.togglesneakenabled": "Toggle Sneak enabled!",
+  "message.togglesneakhotkey.togglesneakdisabled": "Toggle Sneak disabled!",
+
+  "key.togglesneakhotkey.togglesprintmode": "Toggle Sprint Mode",
+  "key.togglesneakhotkey.togglesprintmode.description": "Toggles the sprint mode on or off. When enabled, you can sprint without holding down the sprint key.",
+  "message.togglesneakhotkey.togglesprintenabled": "Toggle Sprint enabled!",
+    "message.togglesneakhotkey.togglesprintdisabled": "Toggle Sprint disabled!",
+
+  "category.togglesneakhotkey.togglehotkeys": "Toggle Hotkeys"
+}
